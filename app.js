@@ -19,6 +19,6 @@ app.set('views', __dirname + '/views');
 
 
 
-app.listen(port, '127.0.0.1', () => {
+app.listen(port, '103.176.232.6', () => {
     console.log(`server is running on port ${port} ------------------------------------------------------------------`)
 })
