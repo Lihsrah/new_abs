@@ -842,14 +842,14 @@ padding-bottom:30px;
     }
 
         .get_connection .connect_now li {
-            width: 20%;
+            width: 40%;
             display: inline-block;
             float: left;
             padding-right: 15px;
         }
 
             .get_connection .connect_now li:first-child .chosen-container .chosen-drop {
-                width: 220px;
+                width: 100%;
             }
 
             .get_connection .connect_now li + li {
