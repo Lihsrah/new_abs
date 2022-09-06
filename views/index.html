@@ -56,7 +56,7 @@ connection in Hisar, Intercom Service for Society, Broadband connection with unl
         <header>
             <section class="top_header">
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row" style="display: flex;">
                         <div class="col-sm-12">
                             <ul class="top_email">
                                 <li><img src="images/top_email.png" title="Mail us" alt="Mail us" /><a
@@ -68,6 +68,13 @@ connection in Hisar, Intercom Service for Society, Broadband connection with unl
                             </ul>
                         </div>
 
+                        <div class="col-sm-2 text-right">
+                            <a href="https://user.absenterprises.co.in/quickpay" target="_blank"><img src="images/quickpay.jpg" /></a>
+                        </div>
+                        <div class="col-sm-2 text-right">
+                            <a href="https://play.google.com/store/apps/details?id=com.cloudradius.abs" target="_blank"><img src="images/g_play_icon2.png"  style="max-height: 38px;" /></a>
+                        </div>
+                        
 
                     </div>
                 </div>
@@ -169,9 +176,8 @@ connection in Hisar, Intercom Service for Society, Broadband connection with unl
                         <div accept-charset="UTF-8">
                             <ul class="connect_now">
                                 <li>
-                                    <select id="cityselect"
-                                        class="chosen-select" onchange="onSelectItem(event)">
-                                        <option >Select City</option>
+                                    <select id="cityselect" class="chosen-select" onchange="onSelectItem(event)">
+                                        <option>Select City</option>
                                         <option value="Hisar">Hisar</option>
                                         <option value="Bhiwani">Bhiwani</option>
 
@@ -588,15 +594,14 @@ connection in Hisar, Intercom Service for Society, Broadband connection with unl
     </form>
 
     <script>
-        function onSelectItem(evt)
-        {
+        function onSelectItem(evt) {
             let value = evt.target.selectedOptions[0].value;
-            if(value=='Hisar') {
+            if (value == 'Hisar') {
                 window.open("https://absenterprises.co.in/")
-               
+
             }
 
-            if(value=='Bhiwani') {
+            if (value == 'Bhiwani') {
                 window.open("http://way2netbroadband.com/")
             }
         }
