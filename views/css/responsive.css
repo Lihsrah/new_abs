@@ -1,0 +1,1395 @@
+@media only screen and (max-width:1200px) {
+    nav {
+        font-size: 13px;
+    }
+
+    .infographic_area {
+        min-height: 220px;
+    }
+
+    nav ul li a {
+        padding: 30px 4px 29px;
+    }
+
+    .our_services ul li {
+        padding: 20px 15px;
+    }
+
+    .our_services li h5 {
+        font-size: 20px;
+    }
+
+    .get_connection h4, .service_provider h4 {
+        width: 100%;
+        float: left;
+        padding: 0 0 10px;
+        text-align: center;
+    }
+
+    .get_connection .connect_now, .service_provider .connect_now {
+        width: 100%;
+    }
+
+    .customer_testimonial .item h3 {
+        font-size: 18px;
+    }
+
+    .infographic_area ul li h3 span {
+        font-size: 18px;
+    }
+
+    .info_img {
+        left: -75px;
+    }
+
+    .banner_box .iptv {
+        width: 90%;
+    }
+
+    .iptv_img {
+        top: 9%;
+        width: 47%;
+    }
+
+    .banner_box .ip_txt {
+        margin-top: -3%;
+    }
+
+    .feature_box {
+        width: 46%;
+    }
+
+    .banner_box .ip_txt h2 {
+        font-size: 64px;
+        line-height: 40px;
+    }
+
+        .banner_box .ip_txt h2 span {
+            font-size: 28px;
+            line-height: 40px;
+        }
+
+    .banner_box .ip_txt p {
+        padding-bottom: 0;
+    }
+
+    .banner_box .telecom {
+        width: 39%;
+    }
+
+    .banner_box .fiber_router {
+        width: 43%;
+    }
+
+    @keyframes fiber_router {
+        0% {
+            transform: scale(.98);
+            right: -2%;
+            opacity: 0;
+        }
+
+        100% {
+            transform: scale(1);
+            right: 2%;
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes fiber_router {
+        0% {
+            transform: scale(.98);
+            right: -2%;
+            opacity: 0;
+        }
+
+        100% {
+            transform: scale(1);
+            right: 2%;
+            opacity: 1;
+        }
+    }
+
+    .banner_box .carousel-caption.ftth_txt {
+        width: 40%;
+        top: 10%;
+    }
+
+    .banner_box .ftth_txt h2 {
+        font-size: 85px;
+    }
+
+    .banner_box .ftth_txt h3 {
+        font-size: 18px;
+    }
+
+    .banner_box .ftth_txt p {
+        font-size: 18px;
+        padding-bottom: 0;
+    }
+
+    .banner_box .carousel-caption.telecom_txt {
+        top: 10%;
+        width: 49%;
+    }
+
+    .banner_box .telecom_txt h2 {
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    .abt_founder .ceo_img {
+        width: 43%;
+    }
+
+    .ceo_dis {
+        width: 54%;
+        margin: 1% 0 0 1%;
+    }
+
+        .ceo_dis figcaption {
+            font-size: 18px;
+            line-height: 26px;
+            padding: 18px 0;
+        }
+
+        .ceo_dis p {
+            font-size: 15px;
+            padding-bottom: 25px;
+        }
+
+    .leadership_box figcaption {
+        bottom: -5%;
+    }
+
+    .search_plan .offers .label {
+        font-size: 24px;
+    }
+
+    .search_plan .check_plan .label {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .infographic_area {
+        min-height: 77px;
+    }
+
+    .modal {
+        left: 0;
+        top: 10px;
+    }
+
+    header.sticky {
+        position: static;
+    }
+
+    .mobile_nav {
+        display: block;
+        margin: 0 0 0;
+    }
+
+    nav ul {
+        display: none;
+        background: #222;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 305px;
+        z-index: 10;
+    }
+
+        nav ul li {
+            width: 100%;
+            text-align: left;
+            float: left;
+        }
+
+            nav ul li a {
+                color: #fff;
+                font-size: 14px;
+                padding: 10px 15px;
+                border-bottom: solid 1px #ccc!important;
+                width: 100%!important;
+                float: left;
+            }
+
+            nav ul li ul.drop1_list {
+                position: static;
+                display: none!important;
+                width: 100%;
+                height: auto;
+                float: left;
+            }
+
+            nav ul li:hover ul.drop1_list {
+                display: block!important;
+            }
+
+    .mobile_nav span {
+        width: 22px;
+        height: 2px;
+        background: #fff;
+        float: right;
+        margin: 25px 0 0 25px;
+        position: relative;
+        transition: all .3s ease;
+        font-size: 0;
+    }
+
+        .mobile_nav span:before {
+            content: '';
+            position: absolute;
+            width: 22px;
+            height: 2px;
+            background: #fff;
+            left: 0;
+            top: -6px;
+            transition: all .4s ease;
+        }
+
+        .mobile_nav span:after {
+            content: '';
+            position: absolute;
+            width: 22px;
+            height: 2px;
+            background: #fff;
+            left: 0;
+            bottom: -6px;
+            transition: all .4s ease;
+        }
+
+    .mobile_nav.close_menu span {
+        height: auto;
+        font-size: 24px;
+        color: #fff;
+        background: transparent;
+        margin-top: 25px;
+        margin-left: 25px;
+        font-weight: 300;
+    }
+
+        .mobile_nav.close_menu span:before {
+            transform: rotate(45deg);
+            transition: all .4s ease;
+            top: 0%;
+            margin-top: -1px;
+            opacity: 1;
+        }
+
+        .mobile_nav.close_menu span:after {
+            transform: rotate(-45deg);
+            transition: all .4s ease;
+            bottom: 50%;
+            margin-bottom: -1px;
+            opacity: 1;
+        }
+
+    .top_header .right_link li + li + li {
+        display: none;
+    }
+
+    .hidden_now {
+        display: block;
+    }
+
+    .modal-content {
+        min-width: 100%;
+    }
+
+    .top_header .top_email li {
+        font-size: 13px;
+        padding: 8px 15px 8px 0;
+    }
+
+    .top_header .right_link li {
+        font-size: 13px;
+    }
+
+    nav {
+        margin: 0;
+        width: 100%;
+    }
+
+    .social_list {
+        display: none;
+    }
+
+    .info_img {
+        margin-top: 10px;
+        min-height: 187px;
+    }
+
+    .our_products .owl-prev, .customer_testimonial .owl-prev, .product_range .owl-prev {
+        position: static;
+    }
+
+    .our_products .owl-next, .customer_testimonial .owl-next, .product_range .owl-next {
+        position: static;
+    }
+
+    footer .address {
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .how_we_help ul li {
+        padding: 25px 10px;
+    }
+
+        .how_we_help ul li h3 {
+            font-size: 18px;
+        }
+
+    footer h3 {
+        width: 100%;
+        float: left;
+        cursor: pointer;
+        border-bottom: solid 1px #353941;
+        padding: 10px 0;
+        z-index: 9;
+        position: relative;
+        background: 0 0;
+    }
+
+        footer h3:after {
+            content: '+';
+            font-size: 18px;
+            font-weight: 400;
+            color: #fff;
+            float: right;
+            margin: 0 5px 0 0;
+        }
+
+        footer h3.after_arrow:after {
+            content: '-';
+            font-weight: 700;
+        }
+
+    footer .resource {
+        display: none;
+    }
+
+    footer .last_footer p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    footer .last_footer {
+        border: none;
+    }
+
+        footer .last_footer ul {
+            text-align: center;
+        }
+
+            footer .last_footer ul li {
+                margin: 10px 0;
+                padding: 0 7px;
+                font-size: 13px;
+            }
+
+    .banner_box .carousel-caption {
+        width: 40%;
+        left: 2%;
+        top: 4%;
+    }
+
+        .banner_box .carousel-caption.iptv_txt h2 {
+            font-size: 2.6em;
+            line-height: 40px;
+        }
+
+        .banner_box .carousel-caption.ip_txt {
+            left: 60%;
+        }
+
+    @keyframes telecom_txt {
+        0% {
+            left: -4%;
+            opacity: 0;
+        }
+
+        100% {
+            left: 2%;
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes telecom_txt {
+        0% {
+            left: -4%;
+            opacity: 0;
+        }
+
+        100% {
+            left: 2%;
+            opacity: 1;
+        }
+    }
+
+    .banner_box .telecom_txt h2 {
+        font-size: 40px;
+    }
+
+    .banner_box .telecom_txt p {
+        font-size: 17px;
+        padding-bottom: 0;
+    }
+
+    .banner_box .carousel-caption p {
+        padding-bottom: 0;
+        font-size: 17px;
+    }
+
+    .banner_box .carousel-caption a {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .banner_box .carousel-caption.ip_txt {
+        margin-top: -5%;
+        width: 45%;
+    }
+
+    .banner_box .ip_txt h2 {
+        font-size: 50px;
+    }
+
+        .banner_box .ip_txt h2 span {
+            font-size: 25px;
+            line-height: normal;
+        }
+
+    @keyframes ftth_txt {
+        0% {
+            left: -4%;
+            opacity: 0;
+        }
+
+        100% {
+            left: 2%;
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes ftth_txt {
+        0% {
+            left: -4%;
+            opacity: 0;
+        }
+
+        100% {
+            left: 2%;
+            opacity: 1;
+        }
+    }
+
+    .about_txt p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our_story p br {
+        display: none;
+    }
+
+    ul.stry li figure {
+        width: 141px;
+        height: 141px;
+        background-size: 900px auto;
+    }
+
+    ul.stry li h3 {
+        font-size: 34px;
+    }
+
+    ul.stry li span {
+        font-size: 15px;
+    }
+
+    .abt_founder .ceo_img {
+        width: 38%;
+    }
+
+    .ceo_dis {
+        width: 61%;
+        margin: 0% 0 0 0%;
+    }
+
+        .ceo_dis h2 {
+            font-size: 28px;
+        }
+
+        .ceo_dis figcaption {
+            font-size: 16px;
+            line-height: 22px;
+            padding: 0 0 10px;
+        }
+
+        .ceo_dis p {
+            font-size: 14px;
+            padding-bottom: 19px;
+        }
+
+    .play_first, .why_ctv, .why_enterprise {
+        display: none;
+    }
+
+    .serv_midd h4 {
+        font-size: 28px;
+        line-height: 20px;
+    }
+
+    .serv_midd h2 {
+        font-size: 62px;
+    }
+
+    .about_txt h2 {
+        font-size: 40px;
+    }
+
+    .broadband_pln h2 {
+        font-size: 40px;
+    }
+
+    .faqs_service h2 {
+        font-size: 40px;
+    }
+
+    .brdbnd_pln {
+        margin-bottom: 30px;
+    }
+
+    .search_plan .offers .label {
+        font-size: 18px;
+    }
+
+    .search_plan .plan_bg h4 {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 15px;
+    }
+
+    .search_plan .plan_bg .connect_now {
+        width: 100%;
+        text-align: center;
+    }
+
+    .help_feedback ul li {
+        width: 32%!important;
+    }
+
+        .help_feedback ul li:last-child {
+            width: 100%!important;
+        }
+
+    .our_story a {
+        margin-bottom: 35px;
+    }
+
+    .product_range .item h3 {
+        display: none;
+    }
+
+    .product_range .item {
+        margin: 15px 0;
+        padding: 0;
+    }
+
+        .product_range .item .more_details {
+            width: 100%;
+            float: left;
+            height: auto;
+            position: static;
+            opacity: 1;
+        }
+
+    .service_iptv .live_tv .right_content {
+        padding: 25px;
+    }
+
+        .service_iptv .live_tv .right_content h3 {
+            font-size: 42px;
+        }
+
+    footer form {
+        width: 100%;
+        float: left;
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .top_header .top_email li {
+        font-size: 13px;
+        padding: 8px 5px 8px 0;
+    }
+
+    .top_header .right_link li {
+        font-size: 12px;
+    }
+
+        .top_header .right_link li a {
+            padding: 12px 6px 10px;
+        }
+
+    .our_services ul li {
+        width: 50%;
+    }
+
+        .our_services ul li:nth-child(2), .our_services ul li:nth-child(4), .our_services ul li:nth-child(6) {
+            border-right: none;
+        }
+
+        .our_services ul li:nth-child(3) {
+            border-bottom: dotted 1px #e5e5e5;
+            border-right: dotted 1px #e5e5e5;
+        }
+
+        .our_services ul li:nth-child(4) {
+            border-bottom: dotted 1px #e5e5e5;
+        }
+
+        .our_services ul li + li + li + li + li + li {
+            border-bottom: none;
+        }
+
+    .banner_box .ftth_txt h2 {
+        font-size: 65px;
+        padding-bottom: 20px;
+        background-position: -5px 56px;
+        background-size: 60%;
+    }
+
+    .banner_box .ftth_txt h3 {
+        font-size: 15px;
+    }
+
+    .mission_box, .vision_box {
+        width: 100%;
+        padding: 20px;
+        min-height: auto;
+    }
+
+    ul.stry li {
+        width: 50%;
+        margin: 0 0 50px;
+    }
+
+    .abt_founder .ceo_img {
+        width: 100%;
+    }
+
+    .ceo_dis {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+        .ceo_dis h2 {
+        }
+
+        .ceo_dis figcaption {
+            padding: 20px 0;
+        }
+
+    .abt_founder {
+        padding-bottom: 20px;
+    }
+
+    .leadership_box figcaption {
+        bottom: -13%;
+    }
+
+        .leadership_box figcaption h3 {
+            font-size: 18px;
+            padding: 10px 0 0;
+        }
+
+        .leadership_box figcaption span {
+            padding: 0 0 0;
+        }
+
+        .leadership_box figcaption p {
+            font-size: 14px;
+            color: #fff;
+            padding: 5px;
+        }
+
+    .leadership_box {
+        text-align: center;
+        margin: 0 0 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .top_header .right_link li {
+        font-size: 12px;
+        float: left;
+        border: none;
+    }
+
+        .top_header .right_link li a {
+            padding: 8px 15px;
+            border: none;
+        }
+
+    .how_we_help ul li h3 {
+        font-size: 16px;
+    }
+
+    .desk_hide {
+        display: block!important;
+    }
+
+    .banner_box .carousel-caption {
+        display: none;
+    }
+
+    .banner_box .item figure {
+        display: none;
+    }
+
+    .mob_hide {
+        display: none!important;
+    }
+
+    .leadership_box figcaption p {
+        padding: 10px 5px;
+    }
+
+    ul.clnt_list li {
+        width: 50%;
+        border-width: 1px;
+    }
+
+        ul.clnt_list li img {
+            max-height: 60px;
+        }
+
+        ul.clnt_list li:nth-child(6n) {
+            border-right: solid 1px #eeeded;
+        }
+
+        ul.clnt_list li:nth-child(-n+6) {
+            border-top: solid 1px #eeeded;
+        }
+
+    .serv_midd h4 {
+        font-size: 20px;
+    }
+
+    .serv_midd h2 {
+        font-size: 45px;
+    }
+
+    .search_plan .check_plan h3 {
+        font-size: 28px;
+    }
+
+    .search_plan .plan_bg .connect_now li {
+        width: 100%!important;
+        margin: 5px 0;
+    }
+
+    .search_plan .check_plan table {
+        box-shadow: none;
+    }
+
+    .search_plan .check_plan tr {
+        width: 100%;
+        float: left;
+        margin: 15px 0;
+    }
+
+    .search_plan .check_plan td, .search_plan .check_plan th {
+        text-align: left;
+    }
+
+    .search_plan .offers li {
+        width: 100%;
+        margin: 10px 0;
+        min-height: auto;
+    }
+
+    .search_plan .check_plan .label {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .search_plan .check_plan .radio-btn:checked ~ .label::after {
+        top: 35px;
+    }
+
+    .search_plan .check_plan table, .search_plan .check_plan thead, .search_plan .check_plan tbody, .search_plan .check_plan th, .search_plan .check_plan td, .search_plan .check_plan tr {
+        display: block;
+    }
+
+        .search_plan .check_plan thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+    .search_plan .check_plan tr {
+        border: 1px solid #ccc;
+    }
+
+    .search_plan .check_plan td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+    }
+
+        .search_plan .check_plan td:before {
+            top: 6px;
+            left: 6px;
+            float: left;
+            width: 60%;
+            padding-right: 10px;
+            white-space: nowrap;
+            font-weight: 700;
+        }
+
+        .search_plan .check_plan td:first-child::before {
+            width: 100%;
+        }
+
+        .search_plan .check_plan td:nth-of-type(1):before {
+            content: "Plan Name";
+        }
+
+        .search_plan .check_plan td:nth-of-type(2):before {
+            content: "Monthly Rental (Rs.)";
+        }
+
+        .search_plan .check_plan td:nth-of-type(3):before {
+            content: "Speed";
+        }
+
+        .search_plan .check_plan td:nth-of-type(4):before {
+            content: "Monthly data limit ";
+        }
+
+        .search_plan .check_plan td:nth-of-type(5):before {
+            content: "Post FUP Speed";
+        }
+
+    .dvr_pro li {
+        width: 100%;
+        margin-bottom: 15px;
+        border-bottom: solid 1px #ccc;
+        padding-bottom: 15px;
+    }
+
+    .modal-body figure {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .modal-body figcaption {
+        width: 100%;
+    }
+
+    .cctv_dvr h2, .about_txt h1, .help_support_bg h1, .help_feedback h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .cctv_srvices {
+        padding: 80px 0 0;
+        min-height: 300px;
+    }
+
+    .dvr_pro li h4 {
+        font-size: 14px;
+    }
+
+    .cctv_srvices h3 span {
+        font-size: 32px;
+    }
+
+    .cctv_srvices h3 {
+        font-size: 15px;
+    }
+
+    .help_support_bg .help_box figure {
+        display: none;
+    }
+
+    .help_support_bg .help_box .help_area {
+        width: 100%;
+    }
+
+    .service_step h3 {
+        font-size: 26px;
+    }
+
+    .all_steps ul li::after {
+        display: none;
+    }
+
+    .help_feedback ul li {
+        width: 100%!important;
+    }
+
+        .help_feedback ul li input, .help_feedback ul li .nice-select, .help_feedback ul li textarea {
+            width: 100%;
+        }
+
+    .modal-body ul li {
+        width: 100%!important;
+        margin: 5px 0;
+        padding: 0;
+    }
+
+    .play_box li .more_dtl {
+        width: 150px;
+        left: 0;
+    }
+
+    .service_iptv .live_tv .right_img, .service_iptv .live_tv .left_img, .service_iptv .live_tv .right_content {
+        width: 100%;
+    }
+
+    .help_support_bg .contact_box h4 {
+        font-size: 24px;
+    }
+
+    .other_page_bg .sitemap_area .box_1, .other_page_bg .sitemap_area .box_2 {
+        width: 100%;
+        margin: 0 0 15px;
+        padding: 15px 0 0;
+        border-top: solid 1px #f1f1f1;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    h2 {
+        font-size: 32px;
+    }
+
+    .our_services ul li {
+        width: 100%;
+        border-right: none!important;
+        border-bottom: dotted 1px #e5e5e5!important;
+    }
+
+    .get_connection .connect_now li, .service_provider .connect_now li {
+        width: 100%!important;
+        margin: 0 0 6px;
+    }
+
+    .service_provider .nice-select.right .list li, .get_connection .nice-select.right .list li {
+        width: 100%!important;
+    }
+
+    .infographic_area ul li {
+        width: 100%;
+        padding: 25px 0 10px;
+    }
+
+    .how_we_help ul li {
+        width: 100%;
+        padding: 20px 15px 10px;
+    }
+
+        .how_we_help ul li::after {
+            display: none;
+        }
+
+    .leadership_box figcaption {
+        bottom: -13%;
+        position: static;
+        background: #111;
+        padding: 0 5px 10px;
+    }
+
+    .vision_mission figcaption br {
+        display: none;
+        line-height: 24px;
+    }
+
+    .vision_mission h3 {
+        font-size: 28px;
+    }
+
+    .abt_des p {
+        font-size: 20px;
+        padding: 20px 0 0;
+        line-height: 24px;
+    }
+
+        .abt_des p br {
+            display: none;
+        }
+
+    .serv_midd h4 {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .serv_midd h2 {
+        font-size: 30px;
+    }
+
+    .about_txt h2 {
+        font-size: 30px;
+    }
+
+    .about_txt p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .play_rigth_cont h2 {
+        font-size: 26px;
+        margin: 0% 0 1.5%;
+    }
+
+    .play_rigth_cont p {
+        font-size: 16px;
+        line-height: 27px;
+        padding-bottom: 4%;
+    }
+
+    .broadband_pln h2 {
+        font-size: 30px;
+    }
+
+    .broadband_pln p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .locted {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+        .locted br {
+            display: block;
+        }
+
+    .faqs_service h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .faqs_box h3 {
+        font-size: 18px;
+    }
+
+    .faqs_box p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .play_rigth_cont {
+        padding: 2rem 0 1rem;
+    }
+
+    .help_support_bg .help_box .help_area h4 {
+        font-size: 24px;
+    }
+
+    .help_support_bg .help_box .help_area h5 {
+        font-size: 15px;
+    }
+
+    .all_steps ul li h4 {
+        font-size: 15px;
+    }
+
+    .all_steps ul li {
+        width: 100%;
+        min-height: auto;
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .service_step h3 {
+        font-size: 20px;
+    }
+
+    .all_steps p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .service_step .nav-tabs, .all_steps {
+        margin: 10px 0 0;
+    }
+
+        .service_step .nav-tabs li {
+            width: auto;
+        }
+
+    .nav > li > a, .nav-tabs > li > a {
+        padding: 7px;
+        max-width: auto;
+        min-width: auto;
+    }
+
+    .service_step .nav-tabs li img {
+        max-width: 36px;
+    }
+
+    .play_icon_midd p {
+        font-size: 14px;
+        line-height: 22px;
+        height: 54px;
+    }
+
+    .faq_area .accordion-section-title {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 8px 31px 8px 0;
+    }
+
+    .barrier_more h3, .ftth_more h3 {
+        font-size: 20px;
+    }
+
+    .customer_testimonial .item {
+        padding: 0;
+    }
+
+    .iptv_feature .feature_list li {
+        width: 50%;
+        border: dashed 1px #ccc!important;
+        border-width: 0 1px 1px 0!important;
+    }
+
+        .iptv_feature .feature_list li:nth-child(2), .iptv_feature .feature_list li:nth-child(4), .iptv_feature .feature_list li:nth-child(6), .iptv_feature .feature_list li:nth-child(8), .iptv_feature .feature_list li:nth-child(10) {
+            border-right: none!important;
+        }
+
+        .iptv_feature .feature_list li .more_dtl {
+            width: 125px;
+            z-index: 25;
+        }
+
+    .help_support_bg .contact_box .contact_form li {
+        width: 100%;
+    }
+
+    .get_connection {
+        padding: 10px 0;
+    }
+
+        .get_connection h4, .search_plan .plan_bg h4 {
+            cursor: pointer;
+            text-align: left;
+            color: #1d7de8;
+            background: url(../images/plus.png) no-repeat right top;
+            margin: 0;
+            padding: 3px 0;
+        }
+
+        .get_connection .after_arrow, .search_plan .plan_bg .after_arrow {
+            background: url(../images/minus.png) no-repeat right top;
+        }
+
+        .get_connection #unable_area {
+            display: none;
+        }
+
+        .get_connection .active {
+            display: block!important;
+        }
+
+        .get_connection form {
+            display: none;
+            width: 100%;
+            float: left;
+        }
+
+    .search_plan .plan_bg {
+        padding: 10px 15px 5px;
+        background: #f1f1f1;
+    }
+
+    .search_plan {
+        margin: 0;
+    }
+
+        .search_plan .check_plan {
+            padding: 0;
+        }
+
+    .fixed_side_app, .fixed_query {
+        position: fixed;
+        width: 100%;
+        bottom: -1px;
+        top: auto;
+        z-index: 16543500;
+        display: none;
+    }
+
+    .fixed_query {
+        text-align: left;
+        background: #2A6BCD;
+        width: 100%;
+        float: left;
+    }
+
+        .fixed_query ul {
+            width: 100%;
+            float: left;
+        }
+
+            .fixed_query ul li {
+                width: 100%;
+                text-align: center;
+                float: left;
+            }
+
+                .fixed_query ul li a {
+                    min-height: auto;
+                    width: 100%;
+                }
+
+    .fixed_side_app ul li {
+        width: 33.3%;
+        float: left;
+        margin: 0;
+        border-right: solid 1px #fff;
+    }
+
+        .fixed_side_app ul li:last-child {
+            width: 33.4%;
+            border: none;
+        }
+
+        .fixed_side_app ul li a {
+            float: left;
+            min-height: 50px;
+            margin: 1px 0;
+        }
+
+        .fixed_side_app ul li img {
+            max-height: 26px;
+        }
+
+    .pop_1_cnt {
+        position: relative;
+        overflow: auto;
+    }
+
+        .pop_1_cnt ul li {
+            width: 100%!important;
+            float: left;
+            margin: 5px 0!important;
+        }
+
+            .pop_1_cnt ul li input {
+                height: 36px;
+            }
+
+    .new_connection {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0!important;
+        border: none;
+        display: none;
+        box-shadow: none;
+        overflow: auto;
+        height: 100%;
+    }
+
+    .search_plan .plan_bg .connect_now {
+        display: none;
+    }
+
+    .chosen-search {
+        display: none;
+    }
+
+    .get_connection .connect_now li:nth-child(2) .chosen-search {
+        display: block;
+    }
+
+    .search_plan .plan_bg .connect_now li:nth-child(2) .chosen-search {
+        display: block;
+    }
+
+    .qry_desktop {
+        display: none;
+    }
+
+    .qry_mb {
+        display: inline-block;
+    }
+
+    .close_div {
+        top: 5px;
+    }
+
+    .display_nn {
+        display: none;
+    }
+
+    footer .last_footer {
+        padding-bottom: 60px;
+    }
+
+    .our_services {
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .top_header .top_email li img {
+        width: 18px;
+    }
+
+    .our_services {
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width:359px) {
+    .top_header .top_email li {
+        font-size: 11px;
+        padding: 8px 5px 8px 0;
+    }
+
+        .top_header .top_email li img {
+            padding: 0 2px 0 0;
+            width: 18px;
+        }
+
+    ul.stry li {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+
+        ul.stry li h3 {
+            font-size: 34px;
+            padding-top: 0;
+        }
+
+    .our_team .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .our_team h2 {
+        padding: 10px 0;
+    }
+
+    .service_step .nav-tabs li img {
+        width: 30px;
+    }
+
+    .nav > li > a, .nav-tabs > li > a {
+        padding: 6px;
+    }
+}
