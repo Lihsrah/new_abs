@@ -800,6 +800,68 @@ padding-bottom:30px;
     font-size: 18px;
 }
 
+
+.floatinglinks {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #D91235;
+    width: 80px;
+    height: 290px;
+    z-index: 9;
+}
+
+.floatinglinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.floatinglinks .connection {
+    width: 100%;
+    text-align: center;
+    padding: 4px 8px;
+}
+
+.floatinglinks .icon {
+    font-size: 24px;
+}
+
+.floatinglinks .quickpay {
+    width: 100%;
+    text-align: center;
+    padding: 4px 8px;
+}
+
+.floatinglinks .app {
+    width: 100%;
+    text-align: center;
+    padding: 4px 8px;
+}
+
+.floatinglinks .connection:hover {
+    background: #337ab7;
+}
+
+.floatinglinks .quickpay:hover {
+    background: #337ab7;
+}
+
+.floatinglinks .app:hover {
+    background: #337ab7;
+}
+
+.floatinglinks .quickpay {
+    width: 100%;
+    text-align: center;
+    padding: 4px 8px;
+}
+
+.floatinglinks .quickpay:hover {
+    background: #337ab7;
+}
+
 .get_connection {
     width: 100%;
     float: left;
